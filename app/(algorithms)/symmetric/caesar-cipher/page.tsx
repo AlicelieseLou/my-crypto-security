@@ -1,14 +1,13 @@
-import CardItem from '@/components/card';
 import Footer from '@/components/footer';
-import Hero from '@/components/hero';
 import NavMain from '@/components/navbar';
+
+import CaesarCipher from './caesar-cipher';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-base-100 text-base-content">
       <NavMain />
-      <Hero />
-      <CardItem />
+      <CaesarCipher />
       <Footer />
     </main>
   );
