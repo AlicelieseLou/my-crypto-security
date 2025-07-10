@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 My Crypto Security
 
-## Getting Started
+A web-based cryptographic tool for encryption and decryption using **Caesar Cipher** and **El-Gamal Algorithm**.  
+Built with **Next.js**, **Tailwind CSS**, and **Daisy UI** for real-time feedback and usability.
 
-First, run the development server:
+## 🧩 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- ✏️ Real-time encryption & decryption as you type
+- 🔄 Switch easily between encrypt and decrypt mode
+- 🧮 View step-by-step calculation results
+- 📥 Download encrypted/decrypted text to file
+
+## 🧠 Algorithms Implemented
+
+### Caesar Cipher
+A method in which each letter in the message is replaced by a letter with some fixed number of positions down the alphabet.
+
+### El-Gamal Encryption
+El-Gamal is a public-key used for secure data encryption and key exchange based on the discrete logarithm problem.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, Tailwind CSS, DaisyUI
+- **Utilities:** Custom-built El-Gamal & Caesar Cipher logic
+- **Icons:** Lucide-react
+
+## 🚀 Live Demo
+
+```
+https://my-crypto-security-web.vercel.app/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧪 How to Run Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Follow these steps to run the project on your local machine:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# 1. Clone the repository
+git clone https://github.com/AlicelieseLou/my-crypto-security.git
 
-## Learn More
+# 2. Navigate into the project directory
+cd my-crypto-security
 
-To learn more about Next.js, take a look at the following resources:
+# 3. Install all dependencies
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 4. Start the development server
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Then, open your browser and go to:
 
-## Deploy on Vercel
+```
+http://localhost:3000
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If everything is set up correctly, the app should load in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### 🛠️ Requirements
+
+Make sure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/en/) (v16 or higher recommended)
+- npm (comes with Node.js)
+
+You can check by running:
+
+```bash
+node -v
+npm -v
+```
